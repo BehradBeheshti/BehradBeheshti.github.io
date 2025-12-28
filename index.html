@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behrad Beheshti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="profile">
+                <img src="profile.jpg" alt="Behrad Beheshti" class="profile-pic">
+                <h1>Behrad Beheshti</h1>
+                <p class="subtitle">Undergrad Researcher in Robotics & AI</p>
+                <p class="affiliation">San Diego State University</p>
+                
+                <div class="links">
+                    <a href="mailto:bbeheshtishira7627@sdsu.edu">Email</a>
+                    <a href="https://github.com/BehradBeheshti">GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=b3B7-w0AAAAJ&hl=en">Google Scholar</a>
+                    <a href="https://www.linkedin.com/in/behrad-beheshti-32968b339/">LinkedIn</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                I am a sophomore majoring in Applied Mathematics with an emphasis in Computer Science at San Diego State University. 
+                I work as an undergraduate research assistant in the Data-Informed Construction Engineering (DiCE) Lab. 
+                My research focuses on construction robotics, digital twins, autonomous navigation, and semantic understanding for robotic systems.
+            </p>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research">
+            <h2>Research</h2>
+            
+            <h3>Papers</h3>
+            <div class="publication">
+                <div class="pub-media">
+                    <iframe width="100%" height="140" src="https://www.youtube.com/embed/GhREKAz4GiE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="pub-content">
+                    <p class="pub-title">Bootstrapped LLM Semantics for Context-Aware Path Planning over Infrastructure Digital Twins</p>
+                    <p class="pub-authors">M. Amani, <strong>B. Beheshti</strong>, and R. Akhavian</p>
+                    <p class="pub-description">
+                        Using LLMs to help robots understand construction sites and navigate safely around workers and hazards.
+                    </p>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/pdf/2511.11967">Paper</a>
+                        <a href="https://youtu.be/GhREKAz4GiE">Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-image">
+                    <img src="ifc_representation.png" alt="BIM2RDT Framework">
+                </div>
+                <div class="pub-content">
+                    <p class="pub-title">Agentic AI Safety-First BIM2RDT Digital Twin Framework</p>
+                    <p class="pub-authors">R. Akhavian, M. Amani, J. Mootz, R. Ashe, and <strong>B. Beheshti</strong></p>
+                    <p class="pub-description">
+                        Building a pipeline that turns building models (BIM) into environments robots can actually use and navigate.
+                    </p>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/pdf/2509.20705">Paper</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Projects</h3>
+            <div class="project">
+                <div class="project-content-full">
+                    <p class="project-title">Speculative-Tilted RRT* Path Planning</p>
+                    <p class="project-tech">Python, ROS, Motion Planning, RRT*</p>
+                    <p class="project-description">
+                        A tweaked version of RRT* that can switch between "fast mode" (aggressive exploration) and "safe mode" 
+                        (conservative planning) based on what you ask for. Pretty fun to watch it adapt in real-time.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/BehradBeheshti/RRTStar">Code</a>
+                        <a href="https://www.youtube.com/watch?v=gSnNUvaxkLY">Fast Demo</a>
+                        <a href="https://www.youtube.com/watch?v=IlJILYb7LDg">Safe Demo</a>
+                    </div>
+                    
+                    <div class="project-media-dual">
+                        <div class="video-container">
+                            <p class="video-label">Fast Mode</p>
+                            <iframe width="100%" height="180" src="https://www.youtube.com/embed/gSnNUvaxkLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container">
+                            <p class="video-label">Safe Mode</p>
+                            <iframe width="100%" height="180" src="https://www.youtube.com/embed/IlJILYb7LDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notes Section -->
+        <section id="notes">
+            <h2>Notes</h2>
+            <p class="notes-intro">Random notes and writeups from courses and side explorations.</p>
+            
+            <div class="notes-grid">
+                <div class="note-item">
+                    <a href="notes/descrete_annotated.pdf">
+                        <h4>Discrete Math (MATH 245)</h4>
+                        <p class="note-date">Fall 2024</p>
+                        <p class="note-tags">Math, Logic, Proofs</p>
+                        <p class="note-desc">Last three chapters: equivalence relations, posets, and functions.</p>
+                    </a>
+                </div>
+                
+                <div class="note-item">
+                    <a href="notes/YOLO-Note.pdf">
+                        <h4>YOLO Object Detection</h4>
+                        <p class="note-date">December 2024</p>
+                        <p class="note-tags">Computer Vision, Deep Learning</p>
+                        <p class="note-desc">Quick 3-page overview of how YOLO works.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Last updated: December 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
