@@ -140,9 +140,9 @@
                         A simulated mobile robot (Husky base with a pan/tilt camera neck) that searches a 3D
                         Gaussian-splat reconstruction of a room for a natural-language target such as "chair" or
                         "exit sign". The base and neck share one coverage map so each looks where the other hasn't,
-                        an external OWL-ViT process does open-vocabulary detection on the camera feed, and a
-                        curiosity-driven controller stops on a weak hit to re-find and confirm the object across
-                        several sightings before committing — robust to the detector's frame-to-frame noise.
+                        while an external OWL-ViT process runs open-vocabulary detection on the camera feed.
+                        On a weak hit the robot stops to re-find and confirm the object across several sightings
+                        before committing, staying robust to the detector's frame-to-frame noise.
                     </p>
                     <p class="project-links">
                         <a href="https://github.com/BehradBeheshti/active-perception-3dgs-robot">Code</a>
