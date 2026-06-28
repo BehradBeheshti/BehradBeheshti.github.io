@@ -138,11 +138,10 @@
                     <p class="project-meta">Unity 6, URP, 3D Gaussian Splatting, OWL-ViT, Python, C#</p>
                     <p>
                         A simulated mobile robot (Husky base with a pan/tilt camera neck) that searches a 3D
-                        Gaussian-splat reconstruction of a room for a natural-language target such as "chair" or
-                        "exit sign". The base and neck share one coverage map so each looks where the other hasn't,
-                        while an external OWL-ViT process runs open-vocabulary detection on the camera feed.
-                        On a weak hit the robot stops to re-find and confirm the object across several sightings
-                        before committing, staying robust to the detector's frame-to-frame noise.
+                        Gaussian-splat scene for a natural-language target such as "chair" or "exit sign".
+                        The base and neck share a coverage map to explore efficiently, an OWL-ViT process handles
+                        open-vocabulary detection, and the robot pauses to confirm an object across several
+                        sightings before committing.
                     </p>
                     <p class="project-links">
                         <a href="https://github.com/BehradBeheshti/active-perception-3dgs-robot">Code</a>
@@ -158,10 +157,9 @@
                     <p class="project-title">Husky VR Teleoperation System</p>
                     <p class="project-meta">ROS 2, Unity, Meta Quest, Husky A200, UR5e, C++, Python</p>
                     <p>
-                        A VR-based teleoperation system for the Clearpath Husky A200 mobile base with dual UR5e robotic arms,
-                        a Dynamixel pan/tilt neck, and stereo cameras. Operators wear a Meta Quest headset to control the robot's
-                        arms, gripper, neck, and base in real time through a ROS 2 + Unity TCP bridge.
-                        Built for loco-manipulation data collection.
+                        A VR teleoperation system for the Clearpath Husky A200 with dual UR5e arms, a pan/tilt neck,
+                        and stereo cameras. Operators use a Meta Quest headset to drive the robot in real time over a
+                        ROS 2 + Unity bridge, for loco-manipulation data collection.
                     </p>
                     <p class="project-links">
                         <a href="https://github.com/DiCE-Lab-Org/husky_commander">Code</a>
@@ -179,10 +177,9 @@
                     <p class="project-title">RRT* with Prompt: Natural Language Motion Planning</p>
                     <p class="project-meta">C++17, ROS 2 Jazzy, Gazebo, OpenAI API, OpenCV</p>
                     <p>
-                        A natural-language-driven motion planner where OpenAI's API translates user prompts into RRT* planning
-                        parameters governing goal bias, safety, and exploration. Custom RRT* built from scratch in C++ with
-                        feature-based, exponentially-tilted sampling, adaptive iteration counts, and path smoothing.
-                        Deployed on a Clearpath Jackal in ROS 2 / Gazebo with real-time RViz visualization.
+                        A natural-language motion planner where OpenAI's API turns user prompts into RRT* parameters
+                        for goal bias, safety, and exploration. The custom C++ RRT* uses feature-based sampling and
+                        path smoothing, deployed on a Clearpath Jackal in ROS 2 / Gazebo.
                     </p>
                     <p class="project-links">
                         <a href="https://github.com/BehradBeheshti/RRTStar">Code</a>
