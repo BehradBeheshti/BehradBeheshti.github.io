@@ -17,4 +17,4 @@
 
 /* Two readable previews aligned with the main text column. */
 .topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));width:100%;margin-left:0;gap:24px}.topic-grid .topic-video{height:auto;aspect-ratio:16/9}
-@media(max-width:560px){.topic-grid{grid-template-columns:1fr;gap:15px}.topic-grid .topic{grid-template-columns:minmax(0,160px) minmax(0,1fr)}.topic-grid .topic-video{width:100%;height:104px;aspect-ratio:auto}}
+@media(max-width:560px){.topic-grid{grid-template-columns:1fr;gap:24px}.topic-grid .topic{display:block}.topic-grid .topic-preview{margin-bottom:8px}.topic-grid .topic-video{width:100%;height:auto;aspect-ratio:16/9}}
