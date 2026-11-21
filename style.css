@@ -14,3 +14,7 @@
 #projects .math-project{margin-top:34px}#projects .math-media img{background:transparent;padding:0;aspect-ratio:16/10;object-fit:contain}.mentorship-copy{max-width:800px}.contact-section{display:grid;grid-template-columns:1fr 1fr;gap:54px;padding-top:30px;margin-top:44px}.contact-intro p{margin-top:12px;color:#5d7182;font-size:.9375rem;max-width:350px}.contact-links{padding-top:4px}.contact-primary{display:flex;gap:13px;align-items:flex-start;font-size:1rem}.contact-primary>.icon{margin-top:4px}.contact-detail{display:block;font-size:.8125rem;color:#687b89;margin-top:5px;overflow-wrap:anywhere}.contact-profiles{display:flex;gap:25px;margin:20px 0 0 31px}.contact-profiles>a{display:flex;align-items:center;gap:8px;font-size:.875rem}.contact-profiles .icon{width:15px;height:15px}@media(max-width:560px){.contact-section{grid-template-columns:1fr;gap:23px}.contact-intro p{max-width:none}.contact-links{padding-top:0}}
 
 #projects .math-project{background:linear-gradient(115deg,#efe6fa,#e9def6);border-radius:10px;padding:16px 12px}#projects .math-project h3,#projects .math-project a{color:var(--purple)}#projects .math-project a:hover{color:#a05fc4}
+
+/* Give the featured clips more room without widening the reading column. */
+@media(min-width:1100px){.topic-grid{width:calc(100% + 144px);margin-left:-72px;gap:20px}.topic-grid .topic-video{height:196px}}
+@media(max-width:560px){.topic-grid .topic{grid-template-columns:minmax(0,160px) minmax(0,1fr)}.topic-grid .topic-video{width:100%;height:104px}}
